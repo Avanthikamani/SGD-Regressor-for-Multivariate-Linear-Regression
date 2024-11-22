@@ -1,5 +1,3 @@
-![Screenshot 2024-11-22 092221](https://github.com/user-attachments/assets/af5b280d-3ccf-4932-a229-332e40aaf1e4)# SGD-Regressor-for-Multivariate-Linear-Regression
-
 ## AIM:
 To write a program to predict the price of the house and number of occupants in the house with SGD regressor.
 
@@ -8,7 +6,7 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.start 
+1. start 
 2. data preparation
 3. hypothesis definition
 4. cost function 5.parameter update rule 6.iterativetraining7.model evaluation 8.End
@@ -17,9 +15,10 @@ To write a program to predict the price of the house and number of occupants in 
 ```
 /*
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
-Developed by: 
-RegisterNumber:  
+Developed by: m avanthika
+RegisterNumber:24901279  
 */
+```
 import numpy as np
 
 from sklearn.datasets import fetch_california_housing 
@@ -60,14 +59,17 @@ y_pred=multi_output_sgd.predict(x_test)
 y_pred=scaler_y.inverse_transform(y_pred)
 
 y_test= scaler_y.inverse_transform(y_test)
-print(y_pred)```
+print(y_pred)
 
 
 
-## Output:![image](https://github.com/user-attachments/assets/e379d83c-26d4-4b62-a18c-0d8b76788cea)
-
+## Output:
 ![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
-![Uploading Screenshot 2024-11-22 092221.png…]()
+
+![Screenshot 2024-11-22 092221](https://github.com/user-attachments/assets/472e1f4d-bfaf-48d7-8e4d-5f87d9fddaf5)
+
+
+
 
 
 ## Result:
